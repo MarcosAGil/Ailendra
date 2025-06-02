@@ -1,0 +1,28 @@
+INSTRUCCIONES DE DEPLOYMENT - AiLendra Portfolio
+===============================================
+
+Fecha del build: Mon Jun  2 22:47:29 UTC 2025
+
+ARCHIVOS GENERADOS:
+- Ubicación: frontend/build/
+- Contiene: index.html, CSS, JS, imágenes, etc.
+
+PASOS PARA ONE.COM:
+1. Accede a one.com y tu panel de control
+2. Ve a "Mi Página Web" → "Administrador de archivos"
+3. Navega a la carpeta public_html/
+4. ELIMINA archivos existentes (opcional)
+5. SUBE todo el CONTENIDO de frontend/build/ 
+   (NO la carpeta build, sino lo que está dentro)
+6. Crea archivo .htaccess con el contenido del README.md
+7. ¡Listo! Tu sitio estará en línea
+
+MANTENIMIENTO:
+- Para cambiar imágenes: edita frontend/src/components.js
+- Para cambiar testimonios: línea ~650 en components.js  
+- Para cambiar servicios: línea ~550 en components.js
+- Después de cambios: ejecuta este script nuevamente
+
+CONTACTO:
+- Documentación completa: README.md
+- Soporte: info@ailendra.com
